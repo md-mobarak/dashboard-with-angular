@@ -1,0 +1,23 @@
+<div>
+    <div class="container">
+        <div class="follower-nav">
+            <p>Follower Growth</p>
+            <p>Follower Growth</p>
+        </div>
+        <div class="chart-parents">
+            <section class="chart-details">
+                <div>
+                    <h1 class="chart-details-title">4,829</h1>
+                    <small>Gained Followers (last 360 days)</small> <br> <br>
+                    <small>You have a <span class="percent">20% Growth</span> compare to last year</small> <br> <br>
+
+                    <small>You have a reached <span class="percent-2"> 10% </span> of your follower goal</small>
+                </div>
+            </section>
+            <section>
+                <apx-chart [series]="series" [chart]="chart" [dataLabels]="dataLabels" [grid]="grid" [stroke]="stroke"
+                    [title]="title" [xaxis]="xaxis" [markers]="markers"></apx-chart>
+            </section>
+        </div>
+    </div>
+</div>

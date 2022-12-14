@@ -1,0 +1,31 @@
+body {
+    font-family: nunito;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.parents {
+    display: flex;
+}
+
+.child {
+    margin-left: 250px;
+}
+
+.container {
+    padding: 10px 30px;
+
+}
+
+@media only screen and (max-width:1279px) and (min-width: 765px) {
+    .child {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    .child {
+        margin-left: 0px;
+    }
+}

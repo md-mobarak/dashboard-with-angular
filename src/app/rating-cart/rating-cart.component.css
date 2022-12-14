@@ -1,0 +1,242 @@
+.parents-cart {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    width: 100%;
+}
+
+.title {
+    color: grey;
+    text-align: left;
+    margin-left: 100px;
+    font-weight: 500;
+}
+
+hr {
+    width: 95%;
+    color: #6663696c;
+}
+
+.child {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px 2px rgb(226, 224, 224);
+    position: relative;
+}
+
+.bedge-text {
+    position: absolute;
+    top: -30px;
+    border-radius: 50%;
+    left: 215px;
+    background-color: #6366F1;
+    padding: 11px 16px;
+    color: white;
+    z-index: 1;
+}
+
+.bedge-img {
+    position: absolute;
+    top: -10px;
+    border-radius: 50%;
+    left: 215px;
+    z-index: 1;
+}
+
+h2 {
+    color: #47404F;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+.icon-1 {
+    /* text-align: center; */
+    background-color: rgba(206, 170, 240, 0.247);
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.icon-2 {
+    background-color: rgba(170, 240, 170, 0.247);
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.icon-3 {
+    background-color: rgba(240, 172, 170, 0.247);
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.icon-4 {
+    background-color: rgba(177, 170, 240, 0.247);
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+.btn-1 {
+    background-color: rgba(206, 170, 240, 0.247);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 800;
+    margin-top: 10px;
+    color: blueviolet;
+}
+
+.btn-1:hover {
+    background-color: rgba(113, 7, 211, 0.979);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 800;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn-2 {
+    background-color: rgba(170, 240, 170, 0.247);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 800;
+    margin-top: 10px;
+    color: rgb(2, 187, 2);
+}
+
+.btn-2:hover {
+    background-color: rgb(2, 187, 2);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 800;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn-3 {
+    background-color: rgba(240, 172, 170, 0.247);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 800;
+    margin-top: 10px;
+    color: rgb(187, 8, 2);
+}
+
+.btn-3:hover {
+    background-color: rgb(187, 8, 2);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 800;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn-4 {
+    background-color: rgba(206, 170, 240, 0.247);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 800;
+    margin-top: 10px;
+    color: blueviolet;
+}
+
+.btn-4:hover {
+    background-color: blueviolet;
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 800;
+    margin-top: 10px;
+    color: white;
+}
+
+.card-icon {
+    display: flex;
+    justify-content: center;
+}
+
+/* tablet device  */
+@media only screen and (max-width:1279px) and (min-width: 765px) {
+    .parents-cart {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        width: 100%;
+    }
+
+    .bedge-text {
+        position: absolute;
+        top: -30px;
+        border-radius: 50%;
+        left: 290px;
+        background-color: #6366F1;
+        padding: 11px 16px;
+        color: white;
+        z-index: 1;
+
+    }
+
+    .bedge-img {
+        position: absolute;
+        top: -10px;
+        border-radius: 50%;
+        left: 290px;
+        z-index: 1;
+    }
+}
+
+
+
+@media only screen and (max-width: 764px) {
+    .parents-cart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        width: 100%;
+    }
+
+    h2 {
+        color: #47404F;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .bedge-text {
+        position: absolute;
+        top: -30px;
+        border-radius: 50%;
+        left: 275px;
+
+        background-color: #6366F1;
+        padding: 11px 16px;
+        color: white;
+
+    }
+
+    .bedge-img {
+        position: absolute;
+        top: -10px;
+        border-radius: 50%;
+        left: 275px;
+    }
+}

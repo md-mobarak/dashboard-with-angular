@@ -1,0 +1,20 @@
+<div class="parents-chart">
+    <div class="child-chart">
+        <!-- like history -->
+        <div class="info">
+            <p>Like History</p>
+            <p>Dropdown</p>
+        </div>
+        <apx-chart [series]="series" [chart]="chart" [xaxis]="xaxis" [stroke]="stroke" [dataLabels]="dataLabels"
+            [legend]="legend" [markers]="markers" [grid]="grid" [title]="title"></apx-chart>
+
+    </div>
+    <!-- comments history  -->
+    <div class="child-chart">
+        <div class="info">
+            <p>Comments History</p>
+            <p>Dropdown</p>
+        </div>
+        <app-like-history></app-like-history>
+    </div>
+</div>
